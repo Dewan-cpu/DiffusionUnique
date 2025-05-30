@@ -1,0 +1,25 @@
+[project]
+name = "DiffusionUnique"
+version = "2025.05.29"
+description = "for test"
+#readme = "README.md"
+#license = { text = "Apache-2.0" }
+authors = [
+  { name = "Dewan", email = "dhaque1@lsu.edu"}
+]
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=2.2.0", 
+  "matplotlib>=3.10.0"
+]
+
+#[tool.setuptools]
+#license-files = []
+
+#[project.urls]
+#Homepage = "https://github.com/khider/pyCatSim"
+#Issues = "https://github.com/khider/pyCatSim/issues"
+
+[build-system]
+requires = ["setuptools>=69.0.2", "wheel"]
+build-backend = "setuptools.build_meta"
